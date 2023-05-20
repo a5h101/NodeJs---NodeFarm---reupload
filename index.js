@@ -2,7 +2,6 @@
 const fs = require('fs');
 const htp = require('http');
 const url = require('url');
-const { json } = require('stream/consumers');
 const replaceTemplate = require('./module/replaceTemplates');
 
 //Reading data from files
